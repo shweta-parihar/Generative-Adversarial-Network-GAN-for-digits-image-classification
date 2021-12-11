@@ -6,4 +6,4 @@ GANs are a clever way of training a generative model by framing the problem as a
 ## About the problem and methodology
 The most notable application is image-to-image translation tasks. Here also, we train the model to create digits image giving input as mnist dataset which has database of handwritten digits from 0 to 9. The generator tries to create images of digits that look as close as possible to the original images in the mnist dataset and the discriminator tries to identify the images as fake. This leads to generator generating more convincing images that look real.  
 
-The generator and discriminator contains stacked convolutional layers, Batch Normalization and Dropout layers. After about 50 epochs, we get digit images that look real as if they have come from original dataset even though they are created by the model.
+The generator and discriminator contains stacked convolutional layers, batch normalization and dropout layers. After about 50 epochs, we get digit images that look real as if they have come from original dataset even though they are created by the model.
